@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/*background-image:url(../images/img/bg.jpg);*/
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+a, a:visited {
+	text-decoration: none;
+	color:#F00;
+	font-weight:bold;
+}
+.abu, a.abu {
+	color:#666;
+	font-size:11px;
+}
+.merah{
+	color:#f30;
+}
+input.blok, textarea.blok {
+	background-color: #FF9;
+	color: #F00;
+}
+.hijau {
+	color: #093;
+	font-weight: bold;
+	background-image: url(../images/img/accept.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+/* top */
+.top {
+	font-size: 16px;
+	font-weight: bold;
+}
+/* dasbor */
+.dasbor {
+	text-align: center;
+}
+table.dasbor {
+	text-align: center;
+}
+.dasbor th, .dasbor td {
+	padding: 10px 20px;
+	text-align: center;
+	vertical-align: top;
+}
+.dasbor img {
+	max-width: 64px;
+	max-height: 64px;
+	padding: 5px;
+	cursor: pointer;
+}
+.dasbor img:hover {
+	background-color: #CFC;
+	border-radius: 5px;
+}
+.dasbor h1 a, .dasbor h1 a:visited {
+	color: #658841;
+	text-decoration: none;
+}
+.dasbor h1 a:hover {
+	color: #F00;
+}
+/*login*/
+#login {
+	margin: 6% auto auto auto;
+	background-color: #FFF;
+	border:solid thin #EEE;
+	Border-radius: 10px;
+	width:35%;
+	min-width: 240px;
+}
+#login h1 {
+	background-color:#658841;
+	color:#FFF;
+	margin-top: 0;
+	border-radius: 10px 10px 0 0;
+	font-size: 18px;
+	padding: 10px 20px;
+}
+/*form setting*/
+#login form, form.myform {
+	border:solid thin #EEE;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+#login form {
+	margin:10px 20px;
+}
+#login form label, .myform label {
+	font-weight: bold;
+	display:block;
+	text-transform: capitalize;
+}
+th.kiri, tr.kiri th {
+	text-align: left;
+}
+#login input[type='text'], #login input[type='password'], .myform input[type='text'], .myform input[type='password'],
+.myform select, .myform textarea {
+	padding: 6px 12px;
+	background-color: #F5F5F5;
+}
+#login input[type='text'], #login input[type='password'] {
+	width: 94%;
+}
+#login input[type='submit'], #login input[type='reset'],
+.myform input[type='submit'], .myform input[type='reset'],
+a.tambah, a:visited.tambah, a.edit, a:visited.edit {
+	background-color: #658841;
+	color:#fff;
+	padding: 10px 20px;
+	border:none;
+	border-radius: 5px;
+	cursor:pointer;
+	font-weight:bold;
+	text-shadow: 1px 1px gray;
+	margin-right:10px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+#login input[type='submit']:hover, #login input[type='reset']:hover,
+.myform input[type='submit']:hover, .myform input[type='reset']:hover,
+a.tambah, a:hover.tambah {
+	background-color:#658841;
+}
+
+#login form a,#login form a:visited {
+	color:#f30;
+}
+#login form a:hover {
+	color:#900;
+}
+.myform th, .myform td {
+	text-align:left;
+	vertical-align: top;
+	padding:8px 16px;
+	border-bottom:solid thin #EEE;
+}
+.myform th {
+	background-color:#F5F5F5;
+	font-weight:bold;
+	color:#658841;
+	vertical-align: middle;
+}
+.abu {
+	font-size: 11px;
+	color:#666;
+}
+.merah {
+	color:#F30;
+	font-weight: bold;
+}
+/*warning dan sukses*/
+.warning, .sukses {
+	border-bottom: solid 2px #09C;
+}
+.warning {
+	background-color: #F5F5F5;
+	color:#f00;
+	border-left: solid 8px #F00;
+	padding:10px 20px;
+}
+.sukses {
+	background-color: #F5F5F5;
+	color:#090;
+	border-left: solid 8px #090;
+	padding:10px 20px;
+}
+#login .warning, #login .sukses {
+	margin: 10px 20px;
+}
+
+.informasi {
+	float: justify;
+	width: auto;
+	min-height: 100px;
+	height: auto;
+	border: solid 1px #EEE;
+	border-radius: 10px;
+	color: #666;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+/*wrapper*/
+#wrapper {
+	width:100%;
+	min-width:900px;
+	max-width: 1366px;
+	background-color: #FFF;
+	margin: auto auto auto auto;
+	border-radius: 0 0 10px 10px;
+}
+/*header*/
+header {
+	height:auto;
+	min-height: 30px;
+	padding:10px 20px;
+}
+header .home{
+	background-color:#658841;
+	color:#fff;
+	padding: 10px 20px;
+	border-radius:5px;
+	float:left;
+	margin-right: 20px;
+}
+header .logout{
+	background-color:#658841;
+	color:#FFF;
+	padding: 10px 20px;
+	border-radius:5px;
+	float:right;
+	margin-right: 20px;
+}
+header a, header a:visited{
+	color:#FFF;
+	font-weight: bold;
+}
+header a:hover{
+	color:#CF0;
+}
+/*nav*/
+nav {
+	background-color:#658841;
+	color:#fff;
+	height: 50px;
+	padding:0 10px;
+	margin: 10px 0;
+}
+/*konten*/
+.konten {
+	min-height: 475px;
+	padding:10px 20px;
+}
+.konten h1 {
+	color:#658841;
+	border-bottom: solid thin #EEE;
+	font-size: 18px;
+}
+.konten h2 {
+	color:#658841;
+	border-bottom: solid thin #EEE;
+	font-size: 14px;
+}
+.konten h3 {
+	color:#000;
+	margin-bottom: 10px;	
+	font-size: 12px;
+}
+.konten a {
+	color:#000;
+	font-size: 14px;
+}	
+.konten .notif{
+	background-color:#fe051c;
+	color:#fff;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius:5px;
+	float:left;
+	margin-right: 20px;
+}
+/*clearfix*/
+.clearfix {
+	display:block;
+	clear:both;
+	margin-bottom: 10px;
+}
+/* dasbor */
+.dasbor {
+	text-align: center;
+}
+table.dasbor {
+	text-align: center;
+}
+.dasbor th, .dasbor td {
+	padding: 10px 20px;
+	text-align: center;
+	vertical-align: top;
+}
+.dasbor img {
+	max-width: 64px;
+	max-height: 64px;
+	padding: 5px;
+	cursor: pointer;
+}
+.dasbor img:hover {
+	background-color: #CFC;
+	border-radius: 5px;
+}
+.dasbor h1 a, .dasbor h1 a:visited {
+	color: #658841;
+	text-decoration: none;
+}
+.dasbor h1 a:hover {
+	color: #F00;
+}
+/*footer*/
+footer {
+	background-color: #658841;
+	color: #CCC;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 11px;
+	border-radius: 0 0 10px 10px;
+}
+footer a, footer a:visited{
+	color: #FFF;
+}
+footer a: hover {
+	color:#CF0;
+}
+
+/* =Table
+---------------------------------------------------------------*/
+table{
+	font-size:100%;
+}
+
+table th{
+	text-transform:uppercase;
+	font-weight:bold;
+	background:#ffcc33;
+}
+
+table td, table th {
+	text-align:left;
+	padding:6px 15px;
+}
+
+/* memberi jarak antar link edit dan hapus*/
+table td a {
+    margin-right: 10px;
+}
+
+.zebra {
+	background:#F9E9A9;
+}
